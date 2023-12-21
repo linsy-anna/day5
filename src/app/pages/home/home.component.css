@@ -1,0 +1,61 @@
+.box{
+    width: 50%;
+    border: 1px solid ;
+    border-radius: 40px;
+   
+   
+    background-size:cover ;
+    /* background: position 400px;; */
+    height: 600px;
+    /* width:200px; */
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 82%;
+    overflow:scroll;
+    
+    
+}
+.todo{
+    text-align: center;
+}
+.todo-item{
+    display: flex;
+    align-items: center;
+}
+.todo-item input[type="checkbox"] {
+    margin-right: 10px; /* Adjust as needed for spacing between checkbox and text */
+}
+.background{
+    height: 50%;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+i {
+    cursor: pointer;
+  }
+  input[type=checkbox]:checked+p.strikethrough
+  {
+    text-decoration: line-through;
+    color: red;
+}
+  
+  .finished-task {
+    text-decoration: line-through;
+    color:red; /* You can adjust the color as needed */
+       
+  }
+  .compl{
+    text-decoration: line-through;
+    color: red
+  }
+
+input[type=checkbox]:checked + p.strikethrough {
+    text-decoration:line-through;
+    color: red;
+  }
